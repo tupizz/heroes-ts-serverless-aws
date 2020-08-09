@@ -1,0 +1,17 @@
+{
+  "required": ["nome", "poder"],
+  "properties": {
+    "nome": {
+      "$id": "#/properties/nome",
+      "type": "string"
+    },
+    "poder": {
+      "$id": "#/properties/poder",
+      "type": "string"
+    }
+  },
+  "$id": "http://example.org/root.json#",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
